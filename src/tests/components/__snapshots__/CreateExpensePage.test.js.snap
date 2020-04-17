@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should handle onSubmit 1`] = `
+<div>
+  <p>
+    Use the form below to create a new expense.
+  </p>
+  <ExpenseForm
+    onSubmit={[Function]}
+  />
+</div>
+`;
+
+exports[`should render correctly 1`] = `
+<div>
+  <p>
+    Use the form below to create a new expense.
+  </p>
+  <ExpenseForm
+    onSubmit={[Function]}
+  />
+</div>
+`;

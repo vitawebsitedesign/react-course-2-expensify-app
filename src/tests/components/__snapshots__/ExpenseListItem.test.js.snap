@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render expense list item 1`] = `
+<div>
+  <h4>
+    Description: 
+    gum
+      (
+    <Link
+      to="/edit/2"
+    >
+      Edit
+    </Link>
+    )
+  </h4>
+  <p>
+    Amount: 
+    99
+  </p>
+  <p>
+    Created at: 
+    Thu Apr 16 2020 00:00:00 GMT+1000 (Australian Eastern Standard Time)
+  </p>
+</div>
+`;

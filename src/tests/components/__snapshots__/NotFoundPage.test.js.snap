@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render not found page 1`] = `
+<div>
+  <p>
+    This page does not exist.
+  </p>
+  <p>
+    <Link
+      to="/"
+    >
+      Click here to go to the home page.
+    </Link>
+  </p>
+</div>
+`;

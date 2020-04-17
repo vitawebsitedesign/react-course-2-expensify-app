@@ -1,0 +1,24 @@
+@import "./settings";
+
+html {
+    font-size: 62.5%;
+}
+body {
+    background: $white;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: $sm-size;
+    margin-bottom: $xl-size;
+}
+h1 {
+    font-size: $md-size;
+}
+.navlink-active {
+    color: $lime;
+    font-weight: bold;
+}
+
+@media (max-width: $xs-width) {
+    html {
+        font-size: 65%;
+    }
+}
