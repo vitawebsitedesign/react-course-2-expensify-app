@@ -37,5 +37,7 @@ const jsx = (
     </Provider>
 );
 
+console.log(1);
+
 const appEle = document.getElementById('app');
 ReactDOM.render(jsx, appEle);
