@@ -5,7 +5,7 @@ import ExpenseListFilters from './ExpenseListFilters';
 const ExpenseDashboardPage = () => (
     <div>
         <p>
-            yo, whatup biatch
+            Welcome to the expensify app
         </p>
         <ExpenseListFilters />
         <ExpenseList />
