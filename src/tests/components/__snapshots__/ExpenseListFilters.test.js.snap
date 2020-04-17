@@ -23,7 +23,7 @@ exports[`should render ExpenseListFilters 1`] = `
     </option>
   </select>
   <div
-    class="wrapper-date-range-picker"
+    className="wrapper-date-range-picker"
   >
     <withStyles(DateRangePicker)
       anchorDirection="left"
@@ -155,7 +155,7 @@ exports[`should render ExpenseListFilters with alt filters 1`] = `
     </option>
   </select>
   <div
-    class="wrapper-date-range-picker"
+    className="wrapper-date-range-picker"
   >
     <withStyles(DateRangePicker)
       anchorDirection="left"

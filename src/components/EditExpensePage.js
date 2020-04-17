@@ -28,11 +28,12 @@ const mapStateToProps = (state, props) => ({
 
 const mapDispatchToProps = (dispatch, props) => ({
     editExpense: (e) => {
+        debugger;
         const expense = {...e};
         expense.amt *= 100;
-        dispatch(editExpense(props.expense.id, expense));
+        dispatch(editExpense(props.match.params.id, expense));
     },
-    removeExpense: () => dispatch(removeExpense(props.expense.id))
+    removeExpense: () => {debugger;dispatch(removeExpense(props.match.params.id));}
 });
 
 export default connect(mapStateToProps, mapDispatchToProps)(EditExpensePage);

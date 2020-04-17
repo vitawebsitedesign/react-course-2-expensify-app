@@ -3,7 +3,7 @@
 exports[`should render expense dashboard page 1`] = `
 <div>
   <p>
-    yo, whatup biatch
+    Welcome to the expensify app
   </p>
   <Connect(ExpenseListFilters) />
   <Connect(ExpenseList) />

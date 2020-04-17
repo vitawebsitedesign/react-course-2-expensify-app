@@ -69,7 +69,7 @@ test('should sort by amount', () => {
 test('should handle date changes', () => {
     const startDate = moment().subtract(1, 'days');
     const endDate = moment().add(1, 'days');
-    const wrapperDateRangePicker = wrapper.find('[class="wrapper-date-range-picker"]').children().first();
+    const wrapperDateRangePicker = wrapper.find('[className="wrapper-date-range-picker"]').children().first();
     wrapperDateRangePicker.simulate('datesChange', {
         startDate,
         endDate
@@ -79,7 +79,7 @@ test('should handle date changes', () => {
 });
 
 test('should handle date focus changes', () => {
-    const wrapperDateRangePicker = wrapper.find('[class="wrapper-date-range-picker"]').children().first();
+    const wrapperDateRangePicker = wrapper.find('[className="wrapper-date-range-picker"]').children().first();
     wrapperDateRangePicker.simulate('focusChange', 'startDate');
     expect(wrapper.state('calendarFocused')).toBe('startDate');
 });
