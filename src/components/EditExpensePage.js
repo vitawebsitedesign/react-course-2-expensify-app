@@ -28,7 +28,6 @@ const mapStateToProps = (state, props) => ({
 
 const mapDispatchToProps = (dispatch, props) => ({
     editExpense: (e) => {
-        debugger;
         const expense = {...e};
         expense.amt *= 100;
         dispatch(editExpense(props.match.params.id, expense));
