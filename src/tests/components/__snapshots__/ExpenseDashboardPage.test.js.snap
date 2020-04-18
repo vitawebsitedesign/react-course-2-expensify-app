@@ -5,6 +5,7 @@ exports[`should render expense dashboard page 1`] = `
   <p>
     Welcome to the expensify app
   </p>
+  <Connect(ExpensesSummary) />
   <Connect(ExpenseListFilters) />
   <Connect(ExpenseList) />
 </div>

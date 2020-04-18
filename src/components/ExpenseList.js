@@ -22,10 +22,10 @@ export const ExpenseList = props => {
             }
         </ul>
     );
-}
+};
 
 const mapStateToProps = state => ({
     expenses: getVisibleExpenses(state.expenses, state.filters)
-})
+});
 
 export default connect(mapStateToProps)(ExpenseList);
