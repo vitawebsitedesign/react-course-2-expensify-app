@@ -7,21 +7,21 @@ const tomorrow = moment(nowStr).add(1, 'days');
 const crackers = {
     id: '1',
     description: 'crackers',
-    note: '',
+    note: 'salt',
     amt: 395,
     createdAt: now
 };
 const gum = {
     id: '2',
     description: 'gum',
-    note: 'tastes like chocolate',
+    note: 'chewy',
     amt: 99,
     createdAt: yesterday
 };
 const stockings = {
     id: '3',
     description: 'stockings',
-    note: 'smooth',
+    note: '',
     amt: 1450,
     createdAt: tomorrow
 };

@@ -84,7 +84,7 @@ test('should call onSubmit prop for valid form submission', () => {
     const createdAt = wrapper.state('createdAt').valueOf();
     expect(onSubmitSpy).toHaveBeenLastCalledWith({
         description: 'gum',
-        note: 'tastes like chocolate',
+        note: 'chewy',
         amt: 0.99,
         createdAt
     });

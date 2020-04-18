@@ -17,7 +17,7 @@ exports[`should render ExpenseList with expenses 1`] = `
       description="crackers"
       id="1"
       key="1"
-      note=""
+      note="salt"
     />
     <ExpenseListItem
       amt={99}
@@ -25,7 +25,7 @@ exports[`should render ExpenseList with expenses 1`] = `
       description="gum"
       id="2"
       key="2"
-      note="tastes like chocolate"
+      note="chewy"
     />
     <ExpenseListItem
       amt={1450}
@@ -33,7 +33,7 @@ exports[`should render ExpenseList with expenses 1`] = `
       description="stockings"
       id="3"
       key="3"
-      note="smooth"
+      note=""
     />
   </div>
 </ul>
@@ -48,7 +48,7 @@ exports[`x 1`] = `
       description="crackers"
       id="1"
       key="1"
-      note=""
+      note="salt"
     />
     <ExpenseListItem
       amt={99}
@@ -56,7 +56,7 @@ exports[`x 1`] = `
       description="gum"
       id="2"
       key="2"
-      note="tastes like chocolate"
+      note="chewy"
     />
     <ExpenseListItem
       amt={1450}
@@ -64,7 +64,7 @@ exports[`x 1`] = `
       description="stockings"
       id="3"
       key="3"
-      note="smooth"
+      note=""
     />
   </div>
 </ul>

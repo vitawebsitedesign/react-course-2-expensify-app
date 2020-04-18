@@ -29,7 +29,7 @@ exports[`should render ExpenseForm with expense data 1`] = `
       <textarea
         name="note"
         onChange={[Function]}
-        value="tastes like chocolate"
+        value="chewy"
       />
     </label>
     <label
